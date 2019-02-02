@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>App</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="slide first fade">
+			<div class="header-card">
+				<p class="text-medium">Take photos with our app</p>
+				<hr class="header-line" />
+				<p>Super simple installment: free of charge</p>
+				<button class="btn btn-green" onclick="myFunc()">Download <i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></button>
+			</div>
+		</div>
+		<div class="slide second fade">
+			<div class="header-card">
+				<p class="text-medium text-danger"><b>CLICK!</b> Fast and Easy</p>
+				<hr class="header-line" />
+				<p>Choose from thousands of features</p>
+				<button class="btn btn-danger" onclick="myFunc()">Download <i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></button>
+			</div>
+		</div>
+		<div class="slide third fade">
+			<div class="header-card">
+				<p class="text-medium">Smart Design</p>
+				<hr class="header-line" />
+				<p>Customize photos as you go</p>
+				<button class="btn btn-blue" onclick="myFunc()">Download <i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i></button>
+			</div>
+		</div>
+		<button class="transform-middle-right btn-next btn btn-dark">Take Tour <i class="fas fa-angle-right"></i></button>
+		<div class="modal-parent fade-in">
+			<div class="modal-box">				
+				<p class="text-uppercase text-large letter-space">Download</p>
+				<p class="text-large modal-exit"  id="close"><b><i class="fas fa-times"></i></b></p><br><br>
+				<p>Download the app in AppStore, Google Play or Microsoft Store.</p><br><br>
+				<big><i class="fab fa-android"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows"></i><br><br></big>
+				<input type="text" class="form-control" placeholder="Enter e-mail" style="font-family: 'Poppins', sans-serif;"><br><br>
+				<button class="btn btn-danger btn-block" id="submit">Fake Download</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<main>
+			<section id="section-a">
+				<img src="https://www.w3schools.com/w3images/img_app.jpg" alt="Image" class="float-right responsive-img">
+				<h1 class="text-xxlarge">The App</h1>
+				<h2 class="text-xlarge text-green">Why buy it?</h2>
+				<p><big>Take photos like pro.</big> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, neque, eos. Accusamus, quis, eligendi? Aliquid, dolores dolorem praesentium delectus consequuntur. Magnam ducimus similique, consequatur perspiciatis quasi, tempore eius commodi quo.</p>
+				<button class="btn btn-default" onclick="myFunc()"><i class="fas fa-download"></i> Download Application</button>
+				<p>Available for <big class="text-large"><i class="fab fa-android" style="color: #4CAF50"></i> <i class="fab fa-apple"></i> <i class="fab fa-windows" style="color: #2196F3"></i></big></p>
+			</section>
+			<section id="section-b">
+				<img src="https://www.w3schools.com/w3images/app5.jpg" alt="Image" class="float-left responsive-img grayscale70">
+				<h1 class="text-xxlarge">Clarity</h1>
+				<h2 class="text-xlarge text-danger">Pixel, who?</h2>
+				<p><big>A revolution in resolution.</big> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, rem fugit fuga cumque voluptas laborum atque, nisi laudantium amet porro quaerat, eum, deleniti dolores quisquam. Distinctio harum, at ab. Deleniti.</p>
+			</section>
+			<section id="section-c">
+				<h1 align="center" class="text-xxlarge text-white">Features</h1>
+				<div class="row">
+					<div class="col">
+						<i class="fas fa-bolt text-orange"></i>
+						<p class="text-white">Fast</p>
+					</div>
+					<div class="col">
+						<i class="fas fa-heart text-danger"></i>
+						<p class="text-white">Love</p>
+					</div>
+					<div class="col">
+						<i class="fas fa-camera text-warning"></i>
+						<p class="text-white">Clarty</p>
+					</div>
+					<div class="col">
+						<i class="fas fa-battery-full text-green"></i>
+						<p class="text-white">Power</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<i class="far fa-gem text-white"></i>
+						<p class="text-white">Resharp</p>
+					</div>
+					<div class="col">
+						<i class="fas fa-cloud text-blue"></i>
+						<p class="text-white">Cloud</p>
+					</div>
+					<div class="col">
+						<i class="fas fa-globe-americas text-warning"></i>						
+						<p class="text-white">Global</p>
+					</div>
+					<div class="col">
+						<i class="far fa-hdd text-blue"></i>
+						<p class="text-white">Power</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<i class="fas fa-user text-white"></i>
+						<p class="text-white">Safe</p>
+					</div>
+					<div class="col">
+						<i class="fas fa-shield-alt text-orange"></i>						
+						<p class="text-white">Stabile</p>
+					</div>
+					<div class="col">
+						<i class="fas fa-wifi text-dark"></i>
+						<p class="text-white">Connected</p>
+					</div>
+					<div class="col">
+						<i class="far fa-image text-pink"></i>						
+						<p class="text-white">Power</p>
+					</div>
+				</div>
+			</section>
+			<section id="section-d">
+				<h1  class="text-xxlarge">Pricing</h1>
+				<p>Choose a pricing plan that fits your needs.</p>
+				<div class="half">	
+					<div class="card">
+						<ul class="card-list">	
+							<li class="card-title text-large" style="background-color: #616161">Basic</li>
+							<hr class="card-line">
+							<li class="card-item"><b>250</b> Photos</li>
+							<hr class="card-line">
+							<li class="card-item"><b>10</b> Features</li>
+							<hr class="card-line">
+							<li class="card-item"><b>No</b> ads</li>
+							<hr class="card-line">
+							<li class="card-item"><b>Office Hours</b> Support</li>
+							<hr class="card-line">
+							<li class="list-item text-xlarge text-dark">$ 25</li>
+							<hr class="card-line">
+							<li class="card-footer">
+								<button class="btn btn-dark" onclick="myFunc()"><i class="fas fa-download"></i> Download</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="half">	
+					<div class="card">
+						<div class="card">
+							<ul class="card-list">	
+								<li class="card-title text-large" style="background-color: #f44336">Premium</li>
+								<hr class="card-line">
+								<li class="card-item"><b>1000</b> Photos</li>
+								<hr class="card-line">
+								<li class="card-item"><b>50</b> Features</li>
+								<hr class="card-line">
+								<li class="card-item"><b>No</b> ads</li>
+								<hr class="card-line">
+								<li class="card-item"><b>Enndless</b> Support</li>
+								<hr class="card-line">
+								<li class="list-item text-xlarge text-dark">$ 99</li>
+								<hr class="card-line">
+								<li class="card-footer">
+									<button class="btn btn-dark" onclick="myFunc()"><i class="fas fa-download"></i> Download</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
